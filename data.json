@@ -1,0 +1,64 @@
+[
+{
+  "fields": {
+    "cliente": 1,
+    "total": "344.00",
+    "fecha": "2015-08-14T23:15:48Z"
+  },
+  "pk": 1,
+  "model": "factura.factura"
+},
+{
+  "fields": {
+    "total": "30.00",
+    "factura": 1,
+    "articulo": 1,
+    "cantidad": 3
+  },
+  "pk": 2,
+  "model": "factura.renglon"
+},
+{
+  "fields": {
+    "codigo_barra": "23",
+    "descripcion": "Pelota N\u00ba 5",
+    "precio_compra": "10.00",
+    "cantidad_por_bulto": 20,
+    "precio_venta": "12.00"
+  },
+  "pk": 1,
+  "model": "factura.articulo"
+},
+{
+  "fields": {
+    "codigo_barra": "23455",
+    "descripcion": "Autito ",
+    "precio_compra": "10.00",
+    "cantidad_por_bulto": 20,
+    "precio_venta": "13.00"
+  },
+  "pk": 2,
+  "model": "factura.articulo"
+},
+{
+  "fields": {
+    "codigo_barra": "23566",
+    "descripcion": "Trompo",
+    "precio_compra": "1.00",
+    "cantidad_por_bulto": 120,
+    "precio_venta": "2.00"
+  },
+  "pk": 3,
+  "model": "factura.articulo"
+},
+{
+  "fields": {
+    "condicion": "montributo",
+    "apellido": "Talleres",
+    "cuit": "20292247851",
+    "nombre": "jorgito"
+  },
+  "pk": 1,
+  "model": "factura.cliente"
+}
+]
